@@ -10,7 +10,7 @@ const Contact = () => <h1>Contact</h1>;
 
 export const Web3Context = createContext();
 
-export const RPC_URL = "http://127.0.0.1:8545";
+export const RPC_URL = "https://rpc-mumbai.maticvigil.com";
 
 const App = () => {
   const web3 = new Web3(new Web3.providers.HttpProvider(RPC_URL));
